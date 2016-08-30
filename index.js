@@ -1,12 +1,12 @@
 'use strict';
 
-import React, {
-  Component,
+import React, { Component } from 'react';
+import { requireNativeComponent, View } from 'react-native';
+
+import {
   StyleSheet,
   Text,
 } from 'react-native';
-
-var { requireNativeComponent, PropTypes } = React;
 
 class TextInputLayout extends Component {
   constructor(props) {
